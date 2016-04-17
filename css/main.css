@@ -1,0 +1,42 @@
+*{
+	box-sizing: border-box;
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px;
+}
+#content{
+	width:80%;
+	margin:0 auto;
+}
+#header{
+	height:12rem;
+	background-color: #19f;
+	width:100%;
+}
+#middle{
+	display: flex;
+	justify-content: flex-start;
+}
+#side-bar{
+	background-color: #bfb;
+	width:30%;
+	min-height:50rem;
+	display:flex;
+	justify-content:space-around;
+	padding:3rem 0 0 0;
+	align-content: flex-start;
+	flex-flow: row wrap;
+	align-items:center;
+}
+#board{
+	background-color: #FFF2F2;
+	min-height:50rem;
+	flex-grow:2;
+	padding:3rem;
+}
+.element{
+	padding:1rem;
+	border-radius:4px;
+	cursor:pointer;
+	margin:1rem;
+}
