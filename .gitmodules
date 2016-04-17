@@ -1,0 +1,3 @@
+[submodule "vendor/interact.js"]
+	path = vendor/interact.js
+	url = git@github.com:BogdanDidenko/interact.js.git
